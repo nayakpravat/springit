@@ -18,7 +18,7 @@ public class SpringitApplication {
 		SpringApplication.run(SpringitApplication.class, args);
 	}
 
-	@Bean
+	//@Bean
 	CommandLineRunner runner(LinkRepository linkRepository, CommentRepository commentRep){
 		return args -> {
 			Link link = new Link("Getting Started with SprMaster of Computer ApplicationingBoot 2","https://therealdanvega.com/spring-boot-2");
